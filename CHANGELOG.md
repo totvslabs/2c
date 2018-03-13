@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.8.7 - 2018-03-13
+### Fixed
+- 2c queue table should not be listed at entity selection.
+- MySQL error on databases with timestamp zero valued.
+- Table definition cache refactoring. When more than one thread access a database conection, it mixes fields definition.
+
+### Added
+- Database access control to avoid to many record locks
+
+## 2.8.6 - 2018-03-08
+### Fixed
+- Queue query not respects batch size on MySQL and SQLServer databases.
+
 ## 2.8.5 - 2018-03-06
 ### Added
 - New application parameter `ignoreTriggers`, when 2c will only do the initial load and read the queue table. The integrated application will feed the carol_3c_queue manually in this case.
