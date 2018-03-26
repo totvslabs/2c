@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.9.1 - 2018-03-26
+- Added mechanism to control the order of sending data.
+
+## 2.9.0 - 2018-03-20
+### Added
+- Image data is now sent to Carol on Base64 encoding.
+- Support for Totvs Protheus soft delete on SQL Server and Oracle databases.
+
+## 2.8.8 - 2018-03-16
+### Fixed
+- Can't do initial load on SQL Server 2008, sql syntax error.
+
 ## 2.8.7 - 2018-03-13
 ### Fixed
 - 2c queue table should not be listed at entity selection.
@@ -8,7 +20,7 @@ All notable changes to this project will be documented in this file.
 - Table definition cache refactoring. When more than one thread access a database conection, it mixes fields definition.
 
 ### Added
-- Database access control to avoid to many record locks
+- Database access control to avoid to many record locks.
 
 ## 2.8.6 - 2018-03-08
 ### Fixed
