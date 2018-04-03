@@ -1,7 +1,20 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.10.0 - 2018-04-02
+### Added
+- GZip compaction to payload sent to Carol.
+- Informix database compatibility.
+
+### Fixed
+- Performance improvement on pending records search. 
+
+## 2.9.2 - 2018-03-27
+### Fixed
+- Optimized oracle get pending count query.
+
 ## 2.9.1 - 2018-03-26
+### Added
 - Added mechanism to control the order of sending data.
 
 ## 2.9.0 - 2018-03-20
