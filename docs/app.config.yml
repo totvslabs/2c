@@ -1,0 +1,80 @@
+syncThreads: 5
+defaultLanguage: pt_BR
+defaultApplicationID: 0a0829172fc2433c9aa26460c31b78f0
+
+integrationConfigurationPath: "./3c-integrations.yaml"
+batchSize: 1000
+poolSize: 6
+carolDomain: "carol.ai"
+ignoreTriggers: false
+
+# Logging settings.
+logging:
+
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: DEBUG
+
+  # Logger-specific levels.
+  loggers:
+
+    # Sets the level for 'com.example.app' to DEBUG.
+    com.totvslabs.mdm: DEBUG
+    org.eclipse.jetty.util:
+      level: OFF
+    org.eclipse.jetty.io:
+      level: OFF
+    org.eclipse.jetty:
+      level: OFF
+    com.zaxxer.hikari.pool:
+      level: WARN
+    org.apache.http:
+      level: WARN
+    org.quartz.core.JobRunShell:
+      level: ERROR
+    org.quartz.core.QuartzSchedulerThread:
+      level: ERROR
+
+
+
+# Logback's Time Based Rolling Policy - archivedLogFilenamePattern: /tmp/application-%d{yyyy-MM-dd}.log.gz
+# Logback's Size and Time Based Rolling Policy -  archivedLogFilenamePattern: /tmp/application-%d{yyyy-MM-dd}-%i.log.gz
+# Logback's Fixed Window Rolling Policy -  archivedLogFilenamePattern: /tmp/application-%i.log.gz
+
+  appenders:
+    - type: console
+      threshold: ALL
+    - type: file
+      threshold: DEBUG
+      logFormat: "%-6level [%d{HH:mm:ss.SSS}]  %.7thread [%t] %logger{5} - %X{code} %msg %n"
+      currentLogFilename: ./logs/carol-cloud-connector.log
+      archivedLogFilenamePattern: ./logs/application-%d{yyyy-MM-dd}-%i.log.gz
+      archivedFileCount: 7
+      timeZone: UTC
+      maxFileSize: 10MB
+
+server:
+# adminMinThreads: 1
+# adminMaxThreads: 5
+# minThreads: 2
+# maxThreads: 5
+  adminContextPath: /
+  applicationContextPath: /
+  applicationConnectors:
+    - type: http
+      port: 8880
+#    - type: https
+#      port: 8443
+#      keyStorePath: example.keystore
+#      keyStorePassword: example
+#      validateCerts: false
+  adminConnectors:
+    - type: http
+      port: 8081
+#    - type: https
+#      port: 8444
+#      keyStorePath: example.keystore
+#      keyStorePassword: example
+#      validateCerts: false
+
+jobs:
+  processing: "0/8 * * ? * * *"
