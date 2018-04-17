@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.10.1 - 2018-04-17
+### Fixed
+- Fix data order on Postgresql
+- Fix unnecessary queue reset when no data was found.
+- Fix bug that make some entities to pause.
+- Fix Yaml concurrent parse problem.
+
 ## 2.10.0 - 2018-04-02
 ### Added
 - GZip compaction to payload sent to Carol.
