@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.10.2 - 2018-04-23
+### Fixed
+- Increase database timeout.
+- Get pending count poor performance.
+- MySQL was inserting duplicate records on queue.
+- Access control on initial load when MySQL and Postgres databases.
+
 ## 2.10.1 - 2018-04-17
 ### Fixed
 - Fix data order on Postgresql
