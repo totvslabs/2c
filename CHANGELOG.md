@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.11.0 - 2018-04-26
+### Added
+- Allow to edit the database connection changing: host, username, password, etc.
+
+### Fixed
+- Charset problem during payload compaction on windows platform.
+- Reduced jar size by removing unnecessary files during the build phase.
+
 ## 2.10.2 - 2018-04-23
 ### Fixed
 - Increase database timeout.
