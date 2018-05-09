@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.11.1 - 2018-05-09
+## Fixed
+- Bug fix that occurs when all pk records fetched from queue are already deleted from the original data table.
+
 ## 2.11.0 - 2018-04-26
 ### Added
 - Allow to edit the database connection changing: host, username, password, etc.
