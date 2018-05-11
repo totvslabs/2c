@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.12.0 - 2018-05-11
+### Added
+- Increase max batch size to 10mb.
+- It is now necessary to log in with the same user used to access Carol in order to use the 2c interface.
+
 ## 2.11.1 - 2018-05-09
 ## Fixed
 - Bug fix that occurs when all pk records fetched from queue are already deleted from the original data table.
@@ -22,7 +27,7 @@ All notable changes to this project will be documented in this file.
 
 ## 2.10.1 - 2018-04-17
 ### Fixed
-- Fix data order on Postgresql
+- Fix data order on Postgresql.
 - Fix unnecessary queue reset when no data was found.
 - Fix bug that make some entities to pause.
 - Fix Yaml concurrent parse problem.
