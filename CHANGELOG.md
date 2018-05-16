@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.12.1 - 2018-05-16
+## Changed
+- Automatic start is now default for windows service.
+- Increased log messages related to record retrieval.
+## Fixed
+- NullPointerException when no schema is informed for MSQLServer.
+- When a batch is larger than 10Mb and the table definition has not yet been synchronized, some parts of this batch are not processed.
+
 ## 2.12.0 - 2018-05-11
 ### Added
 - Increase max batch size to 10mb.
