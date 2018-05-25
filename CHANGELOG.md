@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.12.2 - 2018-05-25
+## Changed
+- Disabled extra login for 2c.
+
 ## 2.12.1 - 2018-05-16
 ## Changed
 - Automatic start is now default for windows service.
