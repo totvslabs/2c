@@ -1,20 +1,29 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.13.0 - 2018-06-26
+### Added
+- Now 2c have a resync feature. It compares local data with remote data and sends the difference. Need to set `enableReSync` option on `app.config.yml` file.
+- Added an embedded derby database on 2c data folder.
+### Changed
+- Login for 2c is now optional. To enable, just set `enableLogin` option on `app.config.yml` file.
+### Fixed
+- Reduced payload size by avoiding sending null data.
+
 ## 2.12.3 - 2018-06-15
-## Fixed
+### Fixed
 - Fix next batch query on Oracle databases.
 
 ## 2.12.2 - 2018-05-25
-## Changed
+### Changed
 - Disabled extra login for 2c.
 
 ## 2.12.1 - 2018-05-16
-## Changed
+### Changed
 - Automatic start is now default for windows service.
 - Increased log messages related to record retrieval.
 
-## Fixed
+### Fixed
 - NullPointerException when no schema is informed for MSQLServer.
 - When a batch is larger than 10Mb and the table definition has not yet been synchronized, some parts of this batch are not processed.
 
@@ -24,7 +33,7 @@ All notable changes to this project will be documented in this file.
 - It is now necessary to log in with the same user used to access Carol in order to use the 2c interface.
 
 ## 2.11.1 - 2018-05-09
-## Fixed
+### Fixed
 - Bug fix that occurs when all pk records fetched from queue are already deleted from the original data table.
 
 ## 2.11.0 - 2018-04-26
