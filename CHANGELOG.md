@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.13.1 - 2018-07-03
+### Fixed
+- Fixed detection of Oracle numeric data type.
+- Reduced max batch size to 8Mb.
+- Fixed Postgresql resync criteria filter.
+- Fixed field cache retriever for uppercase databases.
+- Fixed authentication title typo.
+
 ## 2.13.0 - 2018-06-26
 ### Added
 - Now 2c have a resync feature. It compares local data with remote data and sends the difference. Need to set `enableReSync` option on `app.config.yml` file.
