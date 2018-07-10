@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.13.2 - 2018-07-10
+### Fixed
+- Unnecessary insert in queue table when inclusions occur with soft delete in protheus databases.
+
 ## 2.13.1 - 2018-07-03
 ### Fixed
 - Fixed detection of Oracle numeric data type.
