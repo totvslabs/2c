@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.13.3 - 2018-07-24
+### Changed
+- Updated oracle driver dependency to ojdbc8 12.2.0.1.
+
 ## 2.13.2 - 2018-07-10
 ### Fixed
 - Unnecessary insert in queue table when inclusions occur with soft delete in protheus databases.
