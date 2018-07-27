@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.14.0-Beta - 2018-07-27
+### Added
+- Two new synchronization modes: Sync by timestamp field and Sync by recurrent resynchronization.
+### Removed
+- Removed unnecessary entity cache.
+
 ## 2.13.3 - 2018-07-24
 ### Changed
 - Updated oracle driver dependency to ojdbc8 12.2.0.1.
