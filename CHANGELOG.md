@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.14.0-Beta2 - 2018-08-01
+### Fixed
+- Column name case divergence on Postgresql databases.
+- New fields in SQL Server databases were being ignored.
+### BREAKING CHANGES
+- Binary data is now sent as base64 type.
+
 ## 2.14.0-Beta - 2018-07-27
 ### Added
 - Two new synchronization modes: Sync by timestamp field and Sync by recurrent resynchronization.
