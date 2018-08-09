@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.14.0-Beta3 - 2018-08-09
+### Added
+- 2c config file validation.
+### Fixed
+- Fix schema name on sync by timestamp.
+- Fix MySQL trigger for delete.
+### Changed
+- Change MySQL inital load to avoid select count.
+
 ## 2.14.0-Beta2 - 2018-08-01
 ### Fixed
 - Column name case divergence on Postgresql databases.
