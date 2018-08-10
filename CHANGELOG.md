@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.14.0 - 2018-08-10
+### Fixed
+- Wrong data type on SQL Server float type
+### Changed
+- Updated SQL Server driver depency to 7.0.0
+
 ## 2.14.0-Beta3 - 2018-08-09
 ### Added
 - 2c config file validation.
