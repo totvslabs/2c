@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.15.0-alpha - 2018-08-16
+### Addedd
+- Support for OpenEdge databases.
+- Option to select more then one table to enable/disable.
+- Option to view only existing tables in Carol.
+
 ## 2.14.0 - 2018-08-10
 ### Fixed
 - Wrong data type on SQL Server float type
