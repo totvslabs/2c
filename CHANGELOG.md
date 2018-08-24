@@ -1,8 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.15.0-beta - 2018-08-24
+### Added
+- Support for image reducing before send them to Carol.
+### Fixed
+- Removed unnecessary record count on MySQL databases for initial load.
+- Wrong data format on sync by timestamp.
+
 ## 2.15.0-alpha - 2018-08-16
-### Addedd
+### Added
 - Support for OpenEdge databases.
 - Option to select more then one table to enable/disable.
 - Option to view only existing tables in Carol.
