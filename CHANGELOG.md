@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.15.0-beta2 - 2018-08-29
+### Added
+- Entities are now sorted to priorize lookup tables.
+
 ## 2.15.0-beta - 2018-08-24
 ### Added
 - Support for image reducing before send them to Carol.
