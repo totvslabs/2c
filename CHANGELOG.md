@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.15.0-RC - 2018-09-05
+### Added
+- Now intial timestamp can be setted.
+### Fixed
+- Bug on schema change.
+- Openedge databases was getting wrong schema name.
+
 ## 2.15.0-beta2 - 2018-08-29
 ### Added
 - Entities are now sorted to priorize lookup tables.
