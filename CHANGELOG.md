@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.15.0-RC2 - 2018-09-11
+### Changed
+- Initial load on OpenEdge databases will use a temporary directory instead the queue table.
+
 ## 2.15.0-RC - 2018-09-05
 ### Added
 - Now intial timestamp can be setted.
