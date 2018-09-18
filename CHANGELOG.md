@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.15.1 - 2018-09-18
+### Fixed
+- Oracle trigger names was exceeding 30 characters.
+
 ## 2.15.0 - 2018-09-17
 ### Changed
 - Initial load files for OpenEdge database are now gzipped.
