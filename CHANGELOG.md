@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.15.2 - 2018-09-24
+### Changed
+- MySQL databases now use payload directory to send data to Carol.
+
 ## 2.15.1 - 2018-09-18
 ### Fixed
 - Oracle trigger names was exceeding 30 characters.
