@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.15.3 - 2018-10-01
+### Fixed
+- Date format on internal derby database.
+### Changed
+- MySQL databases use cursor queries to avoid memory overflow.
+- MySQL queries now have a query timeout. Default: 1 hour.
+
 ## 2.15.2 - 2018-09-24
 ### Changed
 - MySQL databases now use payload directory to send data to Carol.
