@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.16.0-beta - 2018-10-09
+### Added
+- 2c can now specify schema name in Oracle databases.
+- Triggers are now created with the conditional filter configured on table activation.
+
 ## 2.15.3 - 2018-10-01
 ### Fixed
 - Date format on internal derby database.
