@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.16.0 - 2018-10-15
+- 2c now warns if it is not the latest version released.
+
 ## 2.16.0-beta - 2018-10-09
 ### Added
 - 2c can now specify schema name in Oracle databases.
