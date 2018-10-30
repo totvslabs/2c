@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.17.0 - 2018-10-30
+### Added
+- Payload files are now splitted if they are bigger than 8Mb.
+- 2c on Oracle databases now support images payloads.
+- Oracle Clob data type are now supported. 
+- Oracle and SQL Server databases now use payload directory to send data to Carol.
+- Number of tables found now is displayed in the entities configuration screen.
+### Changed
+- Updated oracle driver dependency to ojdbc8 18.3.
+### Fixed
+- Enter key now works on login screen.
+
 ## 2.16.0 - 2018-10-15
 - 2c now warns if it is not the latest version released.
 
