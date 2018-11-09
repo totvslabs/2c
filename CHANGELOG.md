@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.18.0 - 2018-11-09
+### Added
+- 2c now send health status to Carol.
+### Changed
+- Max number of Carol connectors increased to 100.
+- Connector's label is now show with it's id.
+### Fixed
+- Image resizing was not working when using payload folder.
+- If Carol is down, 2c becomes unstable.
+- Fix Oracle field case names.
+
 ## 2.17.0 - 2018-10-30
 ### Added
 - Payload files are now splitted if they are bigger than 8Mb.
