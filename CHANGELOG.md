@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.18.2 - 2018-11-19
+### Fixed
+- When the number of changed tables exceeds the size of the pool, database connection timeout may occur.
+
+## 2.18.1 - Unreleased
+### Added
+- Parameter to use the user login as owner of the table and the triggers in oracle bases.
+### Changed
+- Carol's endpoint to delete staging records.
+
 ## 2.18.0 - 2018-11-09
 ### Added
 - 2c now send health status to Carol.
