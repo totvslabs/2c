@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.18.3 - 2018-11-21
+### Fixed
+- 2c failing on timestamp datatype in oracle databases.
+### Changed
+- Informix and Postgres databases now use payload directory to send data to Carol.
+
 ## 2.18.2 - 2018-11-19
 ### Fixed
 - When the number of changed tables exceeds the size of the pool, database connection timeout may occur.
