@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.18.4 - 2018-11-22
+### Fixed
+- NPE on timestamp datatype in oracle databases, when data is absent.
+- 2C is trying create triggers on Views.
+
 ## 2.18.3 - 2018-11-21
 ### Fixed
 - 2c failing on timestamp datatype in oracle databases.
