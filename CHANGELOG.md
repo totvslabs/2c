@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.18.5 - 2018-11-27
+### Fixed
+- Add support for Oracle BLOB datatype
+### Changed
+- Increased number of crosswalks sent to Carol in delete operations.
+
 ## 2.18.4 - 2018-11-22
 ### Fixed
 - NPE on timestamp datatype in oracle databases, when data is absent.
