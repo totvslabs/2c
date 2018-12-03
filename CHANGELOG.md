@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.18.6 - 2018-12-03
+### Fixed
+- Poor performance accessing payload directory when there are too many files to send.
+
 ## 2.18.5 - 2018-11-27
 ### Fixed
 - Add support for Oracle BLOB datatype
