@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.18.7 - 2018-12-05
+### Removed
+- Payload directory statistics was removed because could lead to out of memory situations.
+
 ## 2.18.6 - 2018-12-03
 ### Fixed
 - Poor performance accessing payload directory when there are too many files to send.
