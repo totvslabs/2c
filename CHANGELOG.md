@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.18.8 - 2018-12-07
+### Fixed
+- Wrong date format on Oracle changed records.
+
 ## 2.18.7 - 2018-12-05
 ### Removed
 - Payload directory statistics was removed because could lead to out of memory situations.
