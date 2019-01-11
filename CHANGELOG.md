@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.19.0 - 2019-01-11
+### Added
+- 2c now notifies the tenant admins by e-mail when a table synchronization is being disabled by incompatible schema changes.
+- Support for image type to MySQL, PostgreSql and Informix databases.
+
+### Fixed
+- Wrong date format on MySql initial load.
+- Delete table's records on Carol was not working with Informix databases.
+
+### Changed
+- Improved log message when 2c is unable to connect to a database.
+- Default log configuration to do file rotation.
+
 ## 2.18.8 - 2018-12-07
 ### Fixed
 - Wrong date format on Oracle changed records.
