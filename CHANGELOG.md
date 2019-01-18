@@ -1,6 +1,19 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.19.1 - 2019-01-18
+### Fixed
+- Deleting a database connection is not working.
+
+### Added
+- If connector was deleted, 2c will disable the table synchronization and notify tenante's admins.
+- 2c needs an utility to validate Carol's connection.
+- Jaxb libraries to Java 11 compatibility.
+
+### Changed
+- Updated java version to 8.0.202.
+- Remove unnecessary log message when binary field is not an image.
+
 ## 2.19.0 - 2019-01-11
 ### Added
 - 2c now notifies the tenant admins by e-mail when a table synchronization is being disabled by incompatible schema changes.
