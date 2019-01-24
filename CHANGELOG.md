@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.19.2 - 2019-01-24
+### Added
+- Option to log payloads sent to carol. Just set enablePayloadLogging: true in app.config.yml
+
 ## 2.19.1 - 2019-01-18
 ### Fixed
 - Deleting a database connection is not working.
