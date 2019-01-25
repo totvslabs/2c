@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.19.3 - 2019-01-25
+### Fixed
+- Sync by timestamp is not working on Progress OpenEdge databases.
+- Fix error on reading OpenEdge records with values exceeding its max length.
+
+### Changed
+- Update OpenEdge driver dependecy to 5.1.4.
+
 ## 2.19.2 - 2019-01-24
 ### Added
 - Option to log payloads sent to carol. Just set enablePayloadLogging: true in app.config.yml
