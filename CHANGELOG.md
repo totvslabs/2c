@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.19.4 - 2019-02-01
+### Fixed
+- Sometimes reserved fields on Oracle Protheus databases get wrong data types.
+
 ## 2.19.3 - 2019-01-25
 ### Fixed
 - Sync by timestamp is not working on Progress OpenEdge databases.
