@@ -1,6 +1,23 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.20.0 - 2019-02-08
+### Added
+- Support for TOTVS Protheus company codes.
+- Support for TOTVS Protheus soft delete on PostgreSQL databases.
+
+### Changed
+- Improved notification messages.
+- Update Apache Commons HTTP dependency.
+- Update MS SQLServer driver dependency.
+
+### Fixed
+- Bug on database menu UI when there are more databases syncronizations.
+- When change records with binary datatypes, 2c wasn't sending new binary data in some databases.
+
+### BREAKING CHANGES
+- Updated java version to 11.0.2. Need to update JDK folder.
+
 ## 2.19.4 - 2019-02-01
 ### Fixed
 - Sometimes reserved fields on Oracle Protheus databases get wrong data types.
