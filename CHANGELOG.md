@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.20.1 - 2019-02-12
+### Changed
+- Updated MySQL driver due timezone problems.
+
 ## 2.20.0 - 2019-02-08
 ### Added
 - Support for TOTVS Protheus company codes.
@@ -16,7 +20,7 @@ All notable changes to this project will be documented in this file.
 - When change records with binary datatypes, 2c wasn't sending new binary data in some databases.
 
 ### BREAKING CHANGES
-- Updated java version to 11.0.2. Need to update JDK folder.
+- **Updated java version to 11.0.2. Need to update JDK folder.**
 
 ## 2.19.4 - 2019-02-01
 ### Fixed
