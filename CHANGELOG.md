@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.20.2 - 2019-02-19
+### Fixed
+- Fixed a bug who prevents 2c has more than one connection to the same Carol's connector.
+
 ## 2.20.1 - 2019-02-12
 ### Changed
 - Updated MySQL driver due timezone problems.
