@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.21.0 - 2019-02-25
+### Added
+- Support for directory synchronizaton.
+
 ## 2.20.2 - 2019-02-19
 ### Fixed
 - Fixed a bug who prevents 2c has more than one connection to the same Carol's connector.
