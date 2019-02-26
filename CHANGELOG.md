@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.21.1 - 2019-02-26
+### Fixed
+- Fixed a bug with protheus company codes on oracle databases.
+
 ## 2.21.0 - 2019-02-25
 ### Added
 - Support for directory synchronizaton.
