@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.22.0 - 2019-03-08
+### Added
+- Support for Azure Active Directory authentication to SQL Server databases.
+- Current queue size visualization on databases screen.
+
+### Changed
+- Deselect entities after a bulk enable/disable to avoid more than one start.
+
+### Fixed
+- 2c was not able to identify which entities are already under Carol's staging when using the protheus company codes.
+
 ## 2.21.1 - 2019-02-26
 ### Fixed
 - Fixed a bug with protheus company codes on oracle databases.
