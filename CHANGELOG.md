@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.23.0 - 2019-03-21
+### Added
+- Mask filter for directory synchronization.
+- SQL filter for directory synchronization. 2c can now query a database connection for filenames to be sent to Carol.
+
 ## 2.22.0 - 2019-03-08
 ### Added
 - Support for Azure Active Directory authentication to SQL Server databases.
