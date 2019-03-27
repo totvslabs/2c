@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.23.1 - 2019-03-27
+### Added
+- Suport for Oracle's timestamp with local timezone datatype.
+
 ## 2.23.0 - 2019-03-21
 ### Added
 - Mask filter for directory synchronization.
