@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 - Oracle queue table was not being consumed by 2c.
 
+### Added
+- Suport for Oracle's timestamp with timezone datatype.
+
 ## 2.23.1 - 2019-03-27
 ### Added
 - Suport for Oracle's timestamp with local timezone datatype.
