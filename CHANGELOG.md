@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.24.0 - 2019-04-03
+### Added
+- In timestamp synchronization, you can now choose more than one date field for monitoring.
+
 ## 2.23.2 - 2019-04-01
 ### Fixed
 - Oracle queue table was not being consumed by 2c.
