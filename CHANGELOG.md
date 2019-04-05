@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.24.1 - 2019-04-05
+### Fixed
+- Fix Oracle queue query when using Protheus database with company codes enabled.
+
 ## 2.24.0 - 2019-04-03
 ### Added
 - In timestamp synchronization, you can now choose more than one date field for monitoring.
