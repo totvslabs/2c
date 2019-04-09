@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.24.2 - 2019-04-09
+### Fixed
+- Resynchronization fix of the Openedge database with table names that use the hyphen character in the name.
+
 ## 2.24.1 - 2019-04-05
 ### Fixed
 - Fix Oracle queue query when using Protheus database with company codes enabled.
