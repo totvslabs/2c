@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.24.3 - 1019-04-16
+### Fixed
+- When enabling a table with sync by timestamp with null fields, 2c is getting a NPE.
+- Refreshing pending count with no enabled tables is getting error on 2c.
+
 ## 2.24.2 - 2019-04-09
 ### Fixed
 - Resynchronization fix of the Openedge database with table names that use the hyphen character in the name.
