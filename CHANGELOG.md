@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.25.0 - Unreleased
+### Added
+- Added anonynimization feature to 2c.
+
+### Changed
+- Only create queue table when triggers are enabled on 2c.
+- Heartbeat statistics are now sent every 15 minutes to Carol.
+
 ## 2.24.3 - 1019-04-16
 ### Fixed
 - When enabling a table with sync by timestamp with null fields, 2c is getting a NPE.
