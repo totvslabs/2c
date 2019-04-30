@@ -1,7 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.25.0 - Unreleased
+## 2.25.0 - 2019-04-30
+### Added
+- Multiple table initial loader manager.
+- Cron expression to schedule initial load process.
+
+### Fixed
+- Reading table metadata is leaking connections.
+
+## 2.25.0-beta - 2019-04-18
 ### Added
 - Added anonynimization feature to 2c.
 
