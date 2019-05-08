@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.25.2 - 2019-05-08
+### Fixed
+- Avoid starting concurrent initial loads of the same entity.
+- Disabling a table on Oracle is getting error when using user schema.
+
 ## 2.25.1 - 2019-05-06
 ### Fixed
 - When using user schema to store the triggers on Oracle, 2c wasn't able to check them.
