@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.25.3 - 2019-05-27
+### Fixed
+- 2c is not handling apostrophe (') in pk values.
+- Resync on OpenEdge databases is consuming 100% CPU.
+
 ## 2.25.2 - 2019-05-08
 ### Fixed
 - Avoid starting concurrent initial loads of the same entity.
