@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.25.4 - 2019-05-31
+### Fixed
+- On Oracle databases, delete payload from resync was sending table names uppercase.
+- If a view on Protheus databases didn't contain soft deletion field, 2c wasn't able to synchronized it.
+
+### Changed
+- Updated embedded Derby database to 10.15.1.3.
+
 ## 2.25.3 - 2019-05-27
 ### Fixed
 - 2c is not handling apostrophe (') in pk values.
