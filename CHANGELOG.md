@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.25.5 - 2019-06-07
+### Reverted
+- On Oracle databases, delete payload from resync was sending table names uppercase.
+
 ## 2.25.4 - 2019-05-31
 ### Fixed
 - On Oracle databases, delete payload from resync was sending table names uppercase.
