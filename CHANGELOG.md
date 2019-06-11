@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.25.6 - 2019-06-11
+### Fixed
+- On Oracle databases, delete payload created by triggers are been lowercase.
+
 ## 2.25.5 - 2019-06-07
 ### Reverted
 - On Oracle databases, delete payload from resync was sending table names uppercase.
