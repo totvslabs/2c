@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.26.0 - 2019-06-25
+### Added
+- 2c now supports primary key's values change. It'll send a delete and a insert operation to Carol.
+- 2c now reads, on-the-fly, the payload size limit from Carol.
+
 ## 2.25.6 - 2019-06-11
 ### Fixed
 - On Oracle databases, delete payload created by triggers are been lowercase.
