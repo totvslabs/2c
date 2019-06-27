@@ -1,10 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## 2.26.0 - 2019-06-25
+## 2.26.0 - 2019-06-27
 ### Added
 - 2c now supports primary key's values change. It'll send a delete and a insert operation to Carol.
 - 2c now reads, on-the-fly, the payload size limit from Carol.
+
+### Changed
+- If there are already entities in Carol, the option to show only the entities in the staging area will be checked by default.
 
 ## 2.25.6 - 2019-06-11
 ### Fixed
