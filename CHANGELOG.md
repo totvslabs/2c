@@ -5,6 +5,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 - 2c now supports primary key's values change. It'll send a delete and a insert operation to Carol.
 - 2c now reads, on-the-fly, the payload size limit from Carol.
+- Support for Carol's Data Storage. Just check the option before enable a table synchronization.
 
 ### Changed
 - If there are already entities in Carol, the option to show only the entities in the staging area will be checked by default.
