@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.26.1 - 2019-07-16
+### Added
+- Available space on payload directory to heartbeat info.
+
+### Changed
+- Changed Carol's endpoint to send data to *Carol's Data Storage*.
+
 ## 2.26.0 - 2019-07-04
 ### Added
 - 2c now supports primary key's values change. It'll send a delete and a insert operation to Carol.
