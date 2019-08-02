@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.26.2 - 2019-08-02
+### Fixed
+- On MySQL databases, 2c was unable to read the last timestamp from returned payload.
+
+### Changed
+- By enabling timestamp synchronization, 2c will no longer trigger an initial load.
+
 ## 2.26.1 - 2019-07-16
 ### Added
 - Available space on payload directory to heartbeat info.
