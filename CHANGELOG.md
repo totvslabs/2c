@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.26.3 - 2019-08-13
+### Fixed
+- Reduced memory usage on sync by timestamp
+
 ## 2.26.2 - 2019-08-02
 ### Fixed
 - On MySQL databases, 2c was unable to read the last timestamp from returned payload.
