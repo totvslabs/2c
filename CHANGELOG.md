@@ -1,6 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.27.1 - 2019-08-20
+### Fixed
+- Fix Protheus table names regex.
+
+### Added
+- Added resync differences report.
+
+## 2.27.0 - 2019-07-16
+### Added
+- Support for MongoDB.
+- Support for OpenEdge Oracle schema holder.
+- Added pending count to heartbeat.
+
+### Changed
+- Simplified database version number on heartbeats.
+
 ## 2.26.3 - 2019-08-13
 ### Fixed
 - Reduced memory usage on sync by timestamp
