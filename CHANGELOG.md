@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.27.2 - 2019-08-21
+### Fixed
+- Fix date format on complex documents on MongoDB.
+
+### Added
+- Read primary key definition from df file on Oracle OpenEdge Schema Holder.
+
 ## 2.27.1 - 2019-08-20
 ### Fixed
 - Fix Protheus table names regex.
