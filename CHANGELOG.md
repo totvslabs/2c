@@ -24,6 +24,10 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Simplified database version number on heartbeats.
 
+## 2.26.4 - 2019-08-26
+### Fixed
+- Fix triggers on SQLServer using Protheus company codes.
+
 ## 2.26.3 - 2019-08-13
 ### Fixed
 - Reduced memory usage on sync by timestamp
