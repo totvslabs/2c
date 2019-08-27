@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.27.3 - 2019-08-27
+### Fixed
+- Fix directory connection creation.
+- Fix queue table fieldname on OpenEdge databases.
+- Fix SQL Server fieldname case.
+
 ## 2.27.2 - 2019-08-21
 ### Fixed
 - Fix date format on complex documents on MongoDB.
@@ -23,10 +29,6 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Simplified database version number on heartbeats.
-
-## 2.26.4 - 2019-08-26
-### Fixed
-- Fix triggers on SQLServer using Protheus company codes.
 
 ## 2.26.3 - 2019-08-13
 ### Fixed
