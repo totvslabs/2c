@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.27.4 - 2019-08-29
+### Fixed
+- Fix Oracle connection creation without df file.
+
 ## 2.27.3 - 2019-08-27
 ### Fixed
 - Fix directory connection creation.
