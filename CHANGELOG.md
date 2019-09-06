@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.27.5 - 2019-09-06
+### Fixed
+- Revert MS Sql Server driver to 7.2.2.
+- MS Sql Server mishandling triggers when not prefixed table name.
+
+### Added
+- Button to remove fields from anonynimization.
+- new config option `generateScriptsOnly` to avoid applying DDL to database.
+
+### Changed
+- Changed Http User-Agent from 2c.
+
 ## 2.27.4 - 2019-08-29
 ### Fixed
 - Fix Oracle connection creation without df file.
