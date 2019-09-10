@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.27.6 - 2019-09-10
+### Fixed
+- Http User-Agent
+
+### Reverted
+- Pk modification detection on triggers on SQL Server Databases
+
 ## 2.27.5 - 2019-09-06
 ### Fixed
 - Revert MS Sql Server driver to 7.2.2.
