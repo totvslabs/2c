@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.27.8 - 2019-09-17
+### Changed
+- Handle new Carol's response codes for schema divergences.
+
 ## 2.27.7 - 2019-09-16
 ### Fixed
 - Conditional criteria testing on SQL Server with nonstandard schemas is not working.
