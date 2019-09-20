@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.28.0 - 2019-09-20
+### Added
+- New button to resend all data without needing to disable and enable the synchronization.
+- New synchronization mode: Sync by Full Load.
+
 ## 2.27.8 - 2019-09-17
 ### Changed
 - Handle new Carol's response codes for schema divergences.
