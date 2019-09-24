@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.28.1 - 2019-09-24
+### Fixed
+- Directory synchrozation don't work if directory name contais whitespaces.
+- Avoid enabling table synchronization without primary key definition.
+
+### Changed
+- Field anonymization list is now sorted.
+
 ## 2.28.0 - 2019-09-20
 ### Added
 - New button to resend all data without needing to disable and enable the synchronization.
