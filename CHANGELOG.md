@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.28.2 - 2019-09-25
+### Fixed
+- Fixed primary key validation.
+- In trigger validation, 2c was ignoring conditional sql.
+
 ## 2.28.1 - 2019-09-24
 ### Fixed
 - Directory synchrozation don't work if directory name contais whitespaces.
