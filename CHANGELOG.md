@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 - Sync by timestamp is now Sync by field value. It handle fields with timestamp and integer data.
+
+## 2.28.3 - 2019-10-01
+### Fixed
+- Fix anonymization on sync by timestamp using mongodb.
+
+### Changed
 - Change connection validation on MongoDB connection.
 
 ## 2.28.2 - 2019-09-25
