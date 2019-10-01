@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.29.0 - 2019-10-01
+### Added
+- Support for tenant organizations.
+
+### Changed
+- Sync by timestamp is now Sync by field value. It handle fields with timestamp and integer data.
+- Change connection validation on MongoDB connection.
+
 ## 2.28.2 - 2019-09-25
 ### Fixed
 - Fixed primary key validation.
