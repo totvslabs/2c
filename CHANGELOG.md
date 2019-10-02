@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.29.1 - 2019-10-02
+### Added
+- Support for MongeDB replicas set.
+
+### Fixed
+- Conditional test on Oracle databases with OpenEdge schema holder.
+
 ## 2.29.0 - 2019-10-01
 ### Added
 - Support for tenant organizations.
