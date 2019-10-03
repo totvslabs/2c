@@ -1,9 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.29.2 - 2019-10-03
+### Fixed
+- 2c wasn't handle correctly tables on Oracle using OpenEdge schema holder patterns without df file.
+
 ## 2.29.1 - 2019-10-02
 ### Added
-- Support for MongeDB replicas set.
+- Support for MongoDB replicas set.
 
 ### Fixed
 - Conditional test on Oracle databases with OpenEdge schema holder.
