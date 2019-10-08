@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.29.3 - 2019-10-08
+### Changed
+- Sync by field value now supports dates in varchar fields.
+- Initial load and sync by field value now uses cursor fetching on postgresql databases to avoid out of memory.
+
 ## 2.29.2 - 2019-10-03
 ### Fixed
 - 2c wasn't handle correctly tables on Oracle using OpenEdge schema holder patterns without df file.
