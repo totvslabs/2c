@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.29.4 - 2019-10-09
+### Fixed
+- Wrong json format for nested document from MongoDB on sync by value.
+- Initial integer number on sync by value was been ignored if initial date was null.
+
+### Changed
+- The numeric data type in Postgresql with no defined decimal size is now treated as a double value.
+- [UI] Enabling a lot of tables at same time is now did in batches.
+
 ## 2.29.3 - 2019-10-08
 ### Changed
 - Sync by field value now supports dates in varchar fields.
