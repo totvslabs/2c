@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.29.5 - 2019-10-15
+# Fixed
+- Disable table if no crosswalk available.
+- Wrong trigger creation if `exists` keyword used in conditional sql on SQL Server databases.
+
 ## 2.29.4 - 2019-10-09
 ### Fixed
 - Wrong json format for nested document from MongoDB on sync by value.
