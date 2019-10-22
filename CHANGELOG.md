@@ -1,8 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.29.6 - 2019-10-22
+### Fixed
+- Fix Carol's URL when using organization.
+- Resend all data in Sync by Value, reset previous stored values to the original.
+
+### Added
+- Added support for organization to Carol test connection.
+- Option to reset all anonymizations.
+
 ## 2.29.5 - 2019-10-15
-# Fixed
+### Fixed
 - Disable table if no crosswalk available.
 - Wrong trigger creation if `exists` keyword used in conditional sql on SQL Server databases.
 
