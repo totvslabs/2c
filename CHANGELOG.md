@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.29.7 - 2019-10-23
+### Fixed
+- Fix NPE when getting token from Carol.
+
 ## 2.29.6 - 2019-10-22
 ### Fixed
 - Fix Carol's URL when using organization.
