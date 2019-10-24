@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.30.0 - 2019-10-24
+### Added
+- Option to ignore queue table for read-only databases.
+
 ## 2.29.7 - 2019-10-23
 ### Fixed
 - Fix NPE when getting token from Carol.
