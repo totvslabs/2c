@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.30.1 - 2019-10-30
+### Added
+- Allow to initialize the anonymization on 2C to a list of fields.
+- Add type visualization to valued fields for sync by value.
+- Add last values data from Sync by Value to heartbeat.
+
 ## 2.30.0 - 2019-10-24
 ### Added
 - Option to ignore queue table for read-only databases.
