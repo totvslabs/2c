@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.30.2 - 2019-11-01
+### Fixed
+- Fixed enabling multiple tables at once.
+
 ## 2.30.1 - 2019-10-30
 ### Added
 - Allow to initialize the anonymization on 2C to a list of fields.
