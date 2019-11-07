@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+##  2.30.3 - 2019-11-07
+### Fixed
+- On Oracle databases, 2c is not listing string fields on Sync by Value.
+
+### Changed
+- Changed labels regarding organization and tenants on login screen.
+- Schema definition now uses Carol API v2.
+
+### Removed
+- Removed Informix database support.
+
 ## 2.30.2 - 2019-11-01
 ### Fixed
 - Fixed enabling multiple tables at once.
