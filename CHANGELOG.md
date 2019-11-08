@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+##  2.30.4 - 2019-11-07
+### Added
+- 2c now reads the default definitions of anonymization of schema fields in Carol.
+
 ##  2.30.3 - 2019-11-07
 ### Fixed
 - On Oracle databases, 2c is not listing string fields on Sync by Value.
