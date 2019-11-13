@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.30.5 - 2019-11-13
+### Added
+- Added information about last successful database access to heartbeats.
+
+### Fixed
+- Fixed Oracle delete triggers.
+- Fixed select all button on UI.
+
 ##  2.30.4 - 2019-11-07
 ### Added
 - 2c now reads the default definitions of anonymization of schema fields in Carol.
