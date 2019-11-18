@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.30.6 - 2019-11-18
+### Fixed
+- Fix Oracle sync by timestamp when using OpenEdge schema holder.
+
 ## 2.30.5 - 2019-11-13
 ### Added
 - Added information about last successful database access to heartbeats.
