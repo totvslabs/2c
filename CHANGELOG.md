@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.30.7 - 2019-11-20
+### Added
+- Added synchronization strategy info to heartbeat data.
+
+### Fixed
+- Fix Protheus table name regular expression.
+
 ## 2.30.6 - 2019-11-18
 ### Fixed
 - Fix Oracle sync by timestamp when using OpenEdge schema holder.
