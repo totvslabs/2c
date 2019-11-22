@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.30.8 - 2019-11-22
+### Fixed
+- Fix Openedge transaction isolation settings.
+
 ## 2.30.7 - 2019-11-20
 ### Added
 - Added synchronization strategy info to heartbeat data.
