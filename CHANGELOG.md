@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.31.0 - 2019-12-30
+### Added
+- Added on 2c the information about the total of Bytes sent to Carol.
+### Changed
+- Show limited results when search entities (max. 100 entities).
+### Fixed
+- Fix Chart data when had multiple databases configured.
+### Improvements
+- Performance - faster to show, enable and disable an entity.
+
 ## 2.30.8 - 2019-11-22
 ### Fixed
 - Fix Openedge transaction isolation settings.
