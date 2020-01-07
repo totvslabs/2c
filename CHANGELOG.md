@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.31.1 - 2020-01-07
+### Fixed
+- Fix triggers when the entity was configured with a condition SQL using `In clause` with `Subselect`.
+
 ## 2.31.0 - 2019-12-30
 ### Added
 - Added on 2c the information about the total of Bytes sent to Carol.
