@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.31.3 - 2020-01-16
+### Fixed
+- Fix start application when 2c don't have all info about the connection with Carol.
+
 ## 2.31.2 - 2020-01-15
 ### Fixed
 - Fix entities values on heartbeat info.
