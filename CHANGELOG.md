@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.31.5 - 2020-01-24
+### Fixed
+- Fix Openedge column name to status.
+
 ## 2.31.3 - 2020-01-16
 ### Fixed
 - Fix start application when 2c don't have all info about the connection with Carol.
