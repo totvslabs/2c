@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.31.7 - 2020-02-06
+### Fixed
+- Fix 2C update schema on staging area.
+- Fix Openedge query to get pending queue.
+### Changed
+- Enable multiple tables by Realtime flow and not via CDS flow.
+
 ## 2.31.5 - 2020-01-24
 ### Fixed
 - Fix Openedge column name to status.
