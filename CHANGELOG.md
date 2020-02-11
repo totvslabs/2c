@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.31.8 - 2020-02-11
+### Fixed
+- Fix the integration with Carol when the table has column name with special chars.
+
 ## 2.31.7 - 2020-02-06
 ### Fixed
 - Fix 2C update schema on staging area.
