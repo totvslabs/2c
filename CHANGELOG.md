@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.32.0-RC - 2020-02-12
+### Added
+- Option to sync by value considering the current date/time instead of the maximum date/time for the field's value.
+### Improvements
+- Performance - When enabled multiple entities the data will be generated and sent in parallel to Carol.
+
 ## 2.31.8 - 2020-02-11
 ### Fixed
 - Fix the integration with Carol when the table has column name with special chars.
