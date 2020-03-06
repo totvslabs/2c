@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.32.2 - 2020-03-06
+### Fixed
+- Fix stuck threads when 2C is generating and sending payloads at the same time.
+
+## 2.32.1 - 2020-02-21
+### Fixed
+- Fix the sync by timestamp on Oracle database
+
 ## 2.32.0-RC - 2020-02-12
 ### Added
 - Option to sync by value considering the current date/time instead of the maximum date/time for the field's value.
