@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.32.3 - 2020-03-12
+### Fixed
+- Fix sending data to Carol when the database is Protheus and the table has group code.
+- Fix SqlServer delete trigger when the crosswalk has date field.
+
 ## 2.32.2 - 2020-03-06
 ### Fixed
 - Fix stuck threads when 2C is generating and sending payloads at the same time.
