@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.32.4 - 2020-04-08
+### Fixed
+- Fix shows the original field name (Case Sensitive) when loading the entity.
+### Removed
+- Remove option to send data via CDS, with Carol 3.7 all data is CDS.
+### Added
+- Add option to delete all CDS before syncing Full Load.
+- Add note that shows when the next sync is going to happen.
+- Add oracleUseOwnerAsQueueSchema option in app.config.
+
 ## 2.32.3 - 2020-03-12
 ### Fixed
 - Fix sending data to Carol when the database is Protheus and the table has group code.
