@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.32.5 - 2020-04-30
+### Fixed
+- When the option CDS clear data is selected, 2C clear CDS data every minute.
+### Improvements
+- When the option CDS clear data is selected, 2C only sends data to Carol when the clear task is done.
+### Added
+- Add the option to schedule the first Full Load immediately.
+
 ## 2.32.4 - 2020-04-08
 ### Fixed
 - Fix shows the original field name (Case Sensitive) when loading the entity.
