@@ -1,6 +1,22 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.33.0 - 2020-06-18
+### Added
+- Added integration with TOTVS Identity using connector token.
+- Added option to edit Mysql database properties.
+### Improvements
+- 2C validates if the schema exists and if there is any difference with Carol's staging schema before trying to send the data to Carol.
+- Improvements the logs
+### Fixed
+- Fixed when the process to generate the payloads finish with error the CDS clear data is called again.
+- Fixed when sent the payload to Carol with error and the 2C considers the payload sent with success.
+- Fixed when 2C tries to load a file from disk but the directory has hidden files.
+
+## 2.32.6 - 2020-06-04
+### Fixed
+- Fix sync via resync with a case sensitive database.
+
 ## 2.32.5 - 2020-04-30
 ### Fixed
 - When the option CDS clear data is selected, 2C clear CDS data every minute.
