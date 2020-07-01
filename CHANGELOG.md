@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.33.1 - 2020-07-01
+### Improvements
+- Option to enable SSO via connector token before activating TOTVS Identity on Carol.
+
 ## 2.33.0 - 2020-06-18
 ### Added
 - Added integration with TOTVS Identity using connector token.
