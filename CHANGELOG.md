@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.33.7 - 2020-11-09
+### Improvements
+- Add Java memory parameters on heartbeat;
+- Fix OutOfMemory issue;
+
 ## 2.33.1 - 2020-07-01
 ### Improvements
 - Option to enable SSO via connector token before activating TOTVS Identity on Carol.
