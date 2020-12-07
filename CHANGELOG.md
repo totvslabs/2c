@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.33.9 - 2020-12-07
+### Improvements
+- Add new parameters to start 2C to better control memory usage;
+- Refactored code to liberate space in memory faster;
+### Fix
+- Fix disable an entity that the table was deleted from the database.
+
 ## 2.33.7 - 2020-11-09
 ### Improvements
 - Add Java memory parameters on heartbeat;
