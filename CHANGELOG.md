@@ -1,6 +1,10 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.34.0 - 2020-12-14
+### Fix
+- Fix OpenEdge sql query to get pending records.
+
 ## 2.33.9 - 2020-12-07
 ### Improvements
 - Add new parameters to start 2C to better control memory usage;
