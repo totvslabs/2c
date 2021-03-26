@@ -3,4 +3,4 @@ This project aims to be a default and generic worker for data syncronization bet
 
 For the most up-to-date documentation, please refer to [docs](https://docs.carol.ai/docs/carol-connect-2c)
 
-For release history, please refer to [CHANGELOG.md](CHANGELOG.md)
+For release history, check the [releases page](https://github.com/totvslabs/2c/releases)
